@@ -1,0 +1,130 @@
+.RecycleMain_container {
+    /* width: 75%; */
+    padding-bottom: 50px;
+    background: #FCFCFD;
+  }
+
+  .RecycleMain_hero{
+    background-color: #eef6e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+  }
+
+  .RecycleMain_hero h2 {
+    color: #344054;
+    font-weight: 500;
+  }
+  
+  .RecycleMain_hero p {
+    color: #667085;
+    font-size: 15px;
+    margin: 12px 0;
+  }
+
+  .RecycleMain_middle{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+
+  .RecycleMain_middle_left{ display: flex;
+    flex-direction:column;
+    width: 65%;}
+
+    .RecycleMain_middle_right {
+        width: 33%;
+      }
+
+
+
+.RecycleMain_stations{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #D0D5DD;
+  border-radius: 8px;
+  color: #101828;  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  
+}
+
+.RecycleMain_stations p{ color: rgba(29, 36, 51, 0.8);
+    font-size: 12px;}
+
+   
+.RecycleMain_stations span, .RecycleMain_stations span>p{
+    color: #8BC34A;
+    cursor: pointer;
+  }
+  
+  .RecycleMain_stations_detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 20px 0 10px 0;
+    border-bottom: 1px solid #D0D5DD;
+  }
+  
+  .RecycleMain_collect{
+    width: 100px;
+  }
+  
+  .RecycleMain_stations span, .RecycleMain_stations span>p:hover{
+    display: flex;
+    align-items: center;
+  }
+  
+  .RecycleMain_stations span:hover {
+    color: #fff;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 960px){
+   .RecycleMain_hero {
+    padding: 10px 50px 20px 50px;
+
+   }
+   
+    .RecycleMain_hero img{
+        display: none;
+    }
+  }
+
+  @media (max-width:960px){
+    .RecycleMain_container{
+        width: 100%;
+    }
+
+    .RecycleMain_middle{
+      flex-direction: column;
+    }
+
+    .RecycleMain_middle_left,.RecycleMain_middle_right{
+      width: 100%;
+    }
+  }
+
+  @media (max-width:500px){
+    .RecycleMain_hero {   
+      padding: 0px 25px 15px 25px;
+    }
+
+    .RecycleMain_middle{
+      margin: 25px 25px 0 25px;
+    }
+  }  

@@ -19,7 +19,7 @@ async function main() {
     console.log("Waiting for block confirmations...");
 
     //wait for 6 block confirmations before verifying the transaction
-    await ecoDriveDeployed.waitForDeployment(6);
+    await ecoDriveDeployed.waitForDeployment(10);
     await verify(ecoDriveDeployed.target, []);
   }
 }

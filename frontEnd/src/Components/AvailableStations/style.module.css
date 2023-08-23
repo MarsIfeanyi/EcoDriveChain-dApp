@@ -1,0 +1,49 @@
+.Available_stations {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  color: #101828;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.Available_stations p {
+  color: rgba(29, 36, 51, 0.8);
+  font-size: 12px;
+}
+
+.Available_stations span,
+.Available_stations span > p {
+  color: #8bc34a;
+  cursor: pointer;
+}
+
+.Available_stations_detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px solid #d0d5dd;
+}
+
+.Available_collect {
+  width: 100px;
+}
+
+.Available_stations span,
+.Available_stations span > p:hover {
+  display: flex;
+  align-items: center;
+}
+
+.Available_stations span:hover {
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .Available_stations {
+    width: 100% !important;
+  }
+}

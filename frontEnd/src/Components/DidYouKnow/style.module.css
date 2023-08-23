@@ -1,0 +1,23 @@
+.DidYouKnow_container {
+  background: linear-gradient(180deg, #53811e 0%, #66af10 60.75%, #8bc34a 100%);
+  color: #fff;
+  border-radius: 8px;
+  padding: 25px 25px 50px 25px;
+  text-align: center;  
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.DidYouKnow_container h4 {
+  border-bottom: 1px solid #84bd42;
+  padding-bottom: 8px;
+}
+
+.DidYouKnow_container p {
+  padding-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .DidYouKnow_container {
+   margin: 40px 0;
+  }
+}

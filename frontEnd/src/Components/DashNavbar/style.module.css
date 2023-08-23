@@ -1,0 +1,197 @@
+.DashNavbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #fff;
+  box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.22);
+}
+
+.DashNavbar_user {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.DashNavbar_user img {
+  margin-right: 20px;
+}
+
+.userImg {
+  height: 50px;
+}
+
+.DashNavbar_user_title {
+  width: 200px;
+  overflow: hidden;
+}
+
+.DashNavbar_user_title h4 {
+  color: #667085;
+}
+
+.DashNavbar_user_title p {
+  color: #98a2b3;
+  font-size: 12px;
+}
+
+.DashNavbar_container input[type="checkbox"],
+.DashNavbar_container .hamburgerLines,
+.DashNavbar_toHide {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .DashNavbar_user input[type="checkbox"],
+  .DashNavbar_user .hamburgerLines {
+    display: block;
+  }
+
+  .DashNavbar_container {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0px 0px;
+  }
+
+  .DashNavbar_user {
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+
+  .DashNavbar_user input[type="checkbox"] {
+    position: absolute;
+    display: block;
+    height: 28px;
+    width: 35px;
+    top: 20px;
+    right: 50px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .DashNavbar_user .hamburgerLines {
+    display: block;
+    height: 28px;
+    width: 35px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .DashNavbar_user .hamburgerLines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #8bc34a;
+  }
+
+  .DashNavbar_user .hamburgerLines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .DashNavbar_user .hamburgerLines .line2 {
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .DashNavbar_user .hamburgerLines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .DashNavbar_user .menuItems {
+    position: relative;
+    left: 15%;
+    background-color: #ffffff;
+    height: 40vh;
+    margin-top: 54px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translate(120%);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+  }
+
+  .menuItems li {
+    padding: 10px 0 10px 15px;
+    background-color: #fff;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .DashNavbar_user input[type="checkbox"]:checked ~ .hamburgerLines .line1 {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .DashNavbar_user input[type="checkbox"]:checked ~ .hamburgerLines .line2 {
+    opacity: 0;
+  }
+
+  .DashNavbar_user input[type="checkbox"]:checked ~ .hamburgerLines .line3 {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+
+  .DashNavbar_user input[type="checkbox"]:checked ~ .menuItems {
+    transform: translate(0);
+  }
+}
+
+.menuItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Sidebar_tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: #2c3e50;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Sidebar_tabs_inner {
+  display: flex;
+  align-items: center;
+}
+
+.Sidebar_tabs_inner h3 {
+  margin-left: 10px;
+}
+
+.chev {
+  color: #8bc34a;
+}
+
+.Sidebar_tabs:hover {
+  background-color: #f3f3f3;
+}
+
+.Sidebar_tabs:active {
+  background-color: #e1e1e1;
+}
+
+.Sidebar_logout {
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.Sidebar_logout:hover {
+  text-decoration: underline;
+}

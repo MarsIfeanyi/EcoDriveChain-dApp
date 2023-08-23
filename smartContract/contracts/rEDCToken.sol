@@ -14,15 +14,18 @@ import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract rEDCToken is ERC20 {
     address private i_owner;
     address public depositorAddress;
+    uint initialSupply;
 
     constructor(
-        address _depositorAddress,
         string memory _name,
         string memory _symbol
-    ) ERC20(_name, _symbol) {
-        require(_depositorAddress != address(0), "wrong underlying");
-        i_owner = msg.sender;
-        depositorAddress = _depositorAddress;
+    )
+        // uint256 _initialSupply
+        ERC20(_name, _symbol)
+    {
+        //require(_depositorAddress != address(0), "wrong underlying");
+        //depositorAddress = _depositorAddress;
+        // initialSupply = _initialSupply;
     }
 
     modifier onlyOwner() {
@@ -30,10 +33,7 @@ contract rEDCToken is ERC20 {
         _;
     }
 
-    function mintToken(
-        address userAccount,
-        uint256 amountToMint
-    ) external onlyOwner {
+    function mintToken(address userAccount, uint256 amountToMint) external {
         _mint(userAccount, amountToMint);
     }
 

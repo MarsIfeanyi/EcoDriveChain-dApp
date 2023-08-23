@@ -1,0 +1,45 @@
+.Recycle {
+  border: 1px solid #e4e7ec;
+  border-radius: 8px;
+  padding: 20px 15px;
+  width: 50%;
+  overflow-y: scroll;
+  background-color: #fff;
+  height: 418px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.Recycle h4 {
+  margin-bottom: 10px;
+  color: #101828;
+}
+
+.Recycle_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafeec;
+  border-bottom: 1px solid #e1e6ef;
+  border-radius: 8px;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.Recycle_details:nth-child(odd) {
+  background: #eefcbb;
+}
+
+.Recycle_details2 {
+  background: #eefcbb;
+}
+
+.Recycle_details2:nth-child(odd) {
+  background: #fafeec;
+}
+
+@media (max-width: 1200px) {
+  .Recycle {
+    width: 100% !important;
+  }
+}

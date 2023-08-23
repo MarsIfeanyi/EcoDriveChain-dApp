@@ -1,0 +1,23 @@
+.go-back{
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+  padding: 6px 4px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: all 0.4s linear;
+}
+
+.go-back:hover{
+  background: lightgray;
+}
+.go-back span{
+  font-size: 35px;
+  transform: translateY(-2px);
+}

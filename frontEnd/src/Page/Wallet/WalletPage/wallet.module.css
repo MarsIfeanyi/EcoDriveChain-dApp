@@ -1,0 +1,43 @@
+.wallet-home {
+  padding: 10px 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  flex-direction: row;
+}
+
+.wallet-home .layout-1 {
+  padding: 10px;
+}
+
+.wallet-home .layout-2 {
+  width: 313px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-top: 30px;
+  height: 615px;
+}
+
+.balance-pill-container,
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.balance-pill-container {
+  width: 100%;
+}
+
+@media screen and (max-width: 1008px) {
+  .wallet-home {
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+}

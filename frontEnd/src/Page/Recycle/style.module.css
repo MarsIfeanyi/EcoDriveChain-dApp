@@ -1,0 +1,15 @@
+.Recycle_wrapper {
+    display: flex;
+  }
+
+  .outlet {
+
+    width: 76%;
+  }
+
+  @media (max-width: 960px){
+    .outlet {
+      width:100%;
+    }
+  }
+

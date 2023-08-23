@@ -1,0 +1,22 @@
+.bnk-account-pill{
+  padding: 25px 80px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  border: 1px solid #E1E6EF;
+  border-radius: 8px;
+  color: #1D2433CC;
+  margin-top: 15px;
+}
+
+.bnk-account-pill h1{
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.bnk-account-pill p{
+  font-weight: 500;
+  font-size: 14px;
+  color: #98A2B3;
+  margin-bottom: 4px;
+}

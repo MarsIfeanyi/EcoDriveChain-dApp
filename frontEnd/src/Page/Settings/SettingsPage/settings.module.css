@@ -1,0 +1,20 @@
+.settings-pg{
+  position: relative;
+  width: 100%;
+}
+
+.mainStyles{
+  padding: 20px 3vw;
+  background: #FCFCFD;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: top;
+}
+
+@media screen  and (max-width: 768px){
+  .mainStyles{
+    flex-direction: column;
+  }
+  
+}

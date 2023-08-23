@@ -1,0 +1,82 @@
+.success-modal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 512px;
+  height: 279px;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  right: 64px;
+  bottom: -1px;
+}
+
+.success-modal .checkmark-container{
+  background: #8BC34A;
+  color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.success-modal .checkmark-container h1{
+  font-size: 40px;
+}
+
+.success-modal .awesome{
+  font-size: 24px;
+  color: #1A1C1D;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.success-modal p{
+  font-size: 12px;
+  font-weight: 500;
+  color: #202223;
+  margin-bottom: 20px;
+}
+
+.success-modal button{
+  width: 360px;
+}
+
+
+@media screen and (max-width: 768px){
+  .success-modal{
+    right: 28px;
+    bottom: 188px;
+    width: 200px;
+    height: 179px;
+  }
+
+  .success-modal .checkmark-container{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+  }
+
+  .success-modal .checkmark-container h1{
+    font-size: 30px;
+  }
+    
+  .success-modal .awesome{
+    font-size: 22px;
+    margin-bottom: 2px;
+  }
+
+  .success-modal p{
+    margin-bottom: 10px;
+  }
+
+  .success-modal button {
+      width: 200px;
+  }
+
+}

@@ -1,0 +1,63 @@
+.pill{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.pill .section-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.pill .section-1 figure{
+  margin-right: 5px;
+  height: 51px;
+  width: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  background: #FFF1E0;
+  border-radius: 50%;
+}
+.pill .section-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pill .section-1 figure img{
+  width: 28px;
+  height: 28px;
+}
+
+.pill .details-container h1 {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #344054;
+}
+
+.pill .details-container p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #98A2B3;
+}
+
+.pill .section-2 .value{
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.pill .section-2 .percent{
+  font-weight: 400;
+  font-size: 12px;
+  color: #039855;
+}

@@ -1,0 +1,32 @@
+.upload-modal{
+  width: 350px;
+  height: 124px;
+  padding: 16px;
+  font-weight: 400;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-modal img{
+  height:  26px;
+  width: 26px;
+  margin-bottom: 13px;
+}
+
+.green-section{
+  color:#8BC34A ;
+}
+
+.subtitle{
+  color: #111827;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.illustration{
+  font-size: 14px;
+  color: #6B7280;
+}

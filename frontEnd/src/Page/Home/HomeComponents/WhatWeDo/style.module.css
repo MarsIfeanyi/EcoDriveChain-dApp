@@ -1,0 +1,75 @@
+.WhatWeDo_container {
+  margin: 10px 10vw 100px 10vw;
+  text-align: center;
+}
+
+.WhatWeDo_container h1 {
+  margin-bottom: 30px;
+}
+
+.WhatWeDo_cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.WhatWeDo_card_item {
+  flex-basis: 0;
+  flex-grow: 1;
+  border-radius: 8px;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.16);
+  flex-shrink: 1;
+  /* height: 400px; */
+}
+
+.WhatWeDo_card_item img {
+  width: 50%;
+  padding-top: 5px;
+  object-fit: cover;
+}
+
+.WhatWeDo_card_item h3 {
+  height: 70px;
+}
+
+.WhatWeDo_card_item p {
+  background-color: #eefcbb;
+  padding: 30px;
+  color: #1d2939;
+  border-radius: 0px 0px 8px 8px;
+  height: 200px;
+}
+
+@media (max-width: 1287px) {
+  .WhatWeDo_cards {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .WhatWeDo_card_item img {
+    width: 20%;
+    padding-top: 50px;
+  }
+  .WhatWeDo_card_item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 412px) {
+  .WhatWeDo_card_item p {
+    height: 250px;
+  }
+}
+
+@media (max-width: 346px) {
+  .WhatWeDo_card_item p {
+    height: 270px;
+  }
+}
+@media (max-width: 293px) {
+  .WhatWeDo_card_item p {
+    height: 300px;
+    padding: 20px;
+  }
+}

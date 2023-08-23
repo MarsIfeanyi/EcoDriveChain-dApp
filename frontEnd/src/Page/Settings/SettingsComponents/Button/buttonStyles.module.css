@@ -1,0 +1,23 @@
+.green-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  background: #A4D071;
+  border: 2px solid #A4D071;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+.green-btn:hover {
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  color: #A4D071;
+}
+
+@media screen and (max-width: 768px){
+  .green-btn{
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,12 @@
+.TrackBIRC_container {
+  margin: 10px 10vw 100px 10vw;
+  text-align: center;
+}
+
+.TrackBIRC_img {
+  width: 100%;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 30px;
+  margin-top: 25px;
+}

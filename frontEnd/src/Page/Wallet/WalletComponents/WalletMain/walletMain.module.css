@@ -1,0 +1,25 @@
+.layout-1 {
+  padding: 4px;
+  width: 65%;
+}
+
+.balance-pill-container,
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.balance-pill-container {
+  width: 100%;
+}
+
+@media screen and (max-width: 1008px) {
+  .balance-pill-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}

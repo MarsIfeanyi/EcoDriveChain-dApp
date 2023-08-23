@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.sheader {
+  background-color: #eef6e4;
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  justify-content: space-between;
+}
+
+.sheader h2 {
+  color: #344054;
+  font-weight: 500;
+}
+
+.sheader p {
+  color: #667085;
+  font-size: 15px;
+  margin: 12px 0;
+}
+
+@media (max-width: 960px) {
+  .sheader {
+    padding: 10px 50px 20px 50px;
+  }
+
+  .sheader img {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .sheader {
+    padding: 0px 25px 15px 25px;
+  }
+}

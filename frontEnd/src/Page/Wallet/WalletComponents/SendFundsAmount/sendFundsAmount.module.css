@@ -1,0 +1,88 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #344054;
+}
+
+.title-container .title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.title-container .subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.warning {
+  color: #DC6803;
+  width: 300px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.layout form{
+  margin-bottom: 15px;
+}
+
+.form-title{
+  color: #344054;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.layout form input{
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  color: #667085;
+  font-size: 16px;
+  font-family: 400;
+  width: 285px;
+  margin-bottom: 8px;
+}
+
+.exchange,
+.layout form .details-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #F2F4F7;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #000000;
+}
+
+.layout form .details-container .balance{
+    font-size: 12px;
+    font-weight: 400;
+   
+}
+
+.layout form .details-container .value{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.exchange{
+  margin-bottom: 15px;
+  margin-top: 10px;
+  background: #ffff;
+  color: grey;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.exchange .describ{
+  margin-right: 60px;
+}
+

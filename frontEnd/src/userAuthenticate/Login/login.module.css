@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: #667085; */
+}
+/* font-size: 16px; */
+/* font-weight: 400; */
+
+.page-like {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.page-like aside {
+  margin-right: 170px;
+  width: 50vw;
+  height: 100%;
+  background-position: left;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.page-like aside img {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  padding-bottom: 5px;
+}
+
+.main .title {
+  font-size: 30px;
+  color: #101828;
+  margin-bottom: 12px;
+}
+
+.main .subtitle {
+  width: 360px;
+  margin-bottom: 18px;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content form .input-label {
+  margin-top: 14px;
+  color: #344054;
+  font-weight: 500;
+}
+
+.content form .input-elem {
+  padding: 8px 15px;
+  border-radius: 9px;
+  border: 2px solid #d0d5dd;
+  font-size: 16px;
+  width: 360px;
+  height: 44px;
+  margin-top: 14px;
+}
+
+.content .caption {
+  margin-top: 8px;
+  margin-bottom: 29px;
+}
+
+.texty {
+  margin-top: 8px;
+  margin-bottom: 29px;
+  font-size: 14px;
+}
+
+.texty span {
+  color: #7f56d9;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.password-describ,
+.liney-texty {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.liney {
+  border-top: 2px solid #d0d5dd;
+  width: 156px;
+  transform: translateY(-5px);
+}
+.demac {
+  font-size: 14px;
+  margin-bottom: 14px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.forgot-password {
+  color: #7f56d9;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 150px;
+  transform: translateY(7px);
+}
+
+@media screen and (max-width: 768px) {
+  .page-like {
+    height: 100%;
+    width: 100%;
+    background: url("../../assets/LoginImg.png");
+    background-position: cover;
+    padding: 100px 20px;
+    border-radius: 9px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  .main {
+    background: white;
+    width: 90vw;
+    padding: 30px 10px;
+    border-radius: 9px;
+  }
+
+  .main .title {
+    font-size: 28px;
+  }
+
+  .content form .input-elem {
+    width: 82vw;
+  }
+  .texty,
+  .caption,
+  .forgot-password {
+    font-size: 13px;
+  }
+
+  .forgot-password {
+    margin-left: 110px;
+    width: 120px;
+  }
+
+  .liney {
+    width: 120px;
+  }
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions>svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.successmsg,
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.successmsg{
+  background-color: #7f56d9;
+}

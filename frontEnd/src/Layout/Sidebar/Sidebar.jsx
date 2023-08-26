@@ -8,6 +8,7 @@ import LeaderboardRoundedIcon from "@mui/icons-material/LeaderboardRounded";
 import ArrowBackIosNewRoundedIcon from "@mui/icons-material/ArrowBackIosNewRounded";
 import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
 import SLOGO from "../../assets/logo.png";
+import EcoLogo from "../../Components/EcoLogo/EcoLogo";
 
 const Sidebar = () => {
   const [activeItem, setActiveItem] = useState("");
@@ -47,9 +48,20 @@ const Sidebar = () => {
 
   return (
     <div className={design.Sidebar_wrapper}>
+      {/*<img src={SLOGO} alt="" className={design.Sidebar_img} />*/}
       <div className={design.Sidebar_img_wrapper}>
-        <img src={SLOGO} alt="" className={design.Sidebar_img} />
+        
+        <EcoLogo 
+            className={design.Sidebar_img}
+            textStyles={
+              {
+                "marginLeft":"2px",
+                "fontSize":"28px"
+              }
+            }
+            />
       </div>
+
       <div className={design.menuItems}>
         {" "}
         <div>

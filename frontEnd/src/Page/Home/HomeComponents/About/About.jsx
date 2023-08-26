@@ -11,7 +11,7 @@ const About = () => {
       >
         <h1>About Us</h1>
         <p>
-          Bottle Innovate Recycle Cycle (BIRC) offers convenient and sustainable
+          Bottle Innovate Recycle Cycle (EcoDriveChain) offers convenient and sustainable
           waste disposal solutions for individuals and businesses. Our
           innovative rewards program incentivizes users to dispose of their
           plastic waste with us by offering USDC as a reward. Our experienced

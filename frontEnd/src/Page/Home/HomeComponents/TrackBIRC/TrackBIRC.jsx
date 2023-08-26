@@ -5,7 +5,7 @@ const TrackBIRC = () => {
   return (
     <div className={design.TrackBIRC_container}>
       <h1 data-aos="fade-up" data-aos-duration="1000">
-        Track Your BIRC Activities
+        Track Your EcoDriveChain Activities
       </h1>
       <img
         src={Track}

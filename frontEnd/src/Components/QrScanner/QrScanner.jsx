@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Button from "../Button/Button";
 import design from "./style.module.css";
 import { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 
 const QRCodeScanner = ({ onRecycledData, onProcessed }) => {
   const videoRef = useRef(null);
@@ -52,11 +53,26 @@ const QRCodeScanner = ({ onRecycledData, onProcessed }) => {
 
   return (
     <div className={design.QR_container}>
-      <Button
-        content="Scan QR Code"
-        onClick={startScan}
-        style={{ backgroundColor: "#8BC34A", border: "none", marginLeft: "0" }}
-      />
+      <div className="flex gap-10">
+        <Button
+          content="Scan QR Code"
+          onClick={startScan}
+          style={{
+            backgroundColor: "#8BC34A",
+            border: "none",
+          }}
+        />
+
+        <Link to="deposit-bottles">
+          <Button
+            content="Deposit PetBottles"
+            style={{
+              backgroundColor: "#8BC34A",
+              border: "none",
+            }}
+          />
+        </Link>
+      </div>
       <p>
         Make sure the QR code is inside the viewfinder rectangle to start
         scanning

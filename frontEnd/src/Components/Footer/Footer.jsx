@@ -2,7 +2,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FLOGO from "../../assets/logo.png";
+import FLOGO from "../../assets/FLogo.png";
 import Button from "../Button/Button";
 import design from "./style.module.css";
 
@@ -14,7 +14,7 @@ const Footer = () => {
     <div className={design.Footer_wrapper} id="contact-us">
       <div className={design.Footer_container}>
         <div className={design.Footer_col}>
-          {/*<img src={FLOGO} alt="" className={design.Footer_logo} />*/}
+            <img src={FLOGO} alt="" className={design.Footer_logo} />
           <p>
             Ensure Sustainable and clean Environment through proper waste
             management by incentivizing usage of plastic bottles. This will
@@ -69,7 +69,7 @@ const Footer = () => {
             <Button
               content="Subscribe"
               style={{
-                backgroundColor: "#8BC34A",
+                backgroundColor: "#7F56D9",
                 marginLeft: "0",
                 border: "none",
                 marginBottom: "20px",

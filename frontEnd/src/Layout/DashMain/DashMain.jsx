@@ -52,7 +52,7 @@ const DashMain = () => {
             onClick={handleRecycle}
             content="Start recycling"
             style={{
-              backgroundColor: "#8BC34A",
+              backgroundColor: "#7F56D9",
               border: "none",
               marginLeft: "0",
             }}

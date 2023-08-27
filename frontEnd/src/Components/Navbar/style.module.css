@@ -36,7 +36,7 @@
 }
 
 .active {
-  color: #8bc34a;
+  color: #7F56D9;
 }
 
 .active a {
@@ -71,7 +71,7 @@ a:hover {
 }
 
 .menuItems a:hover {
-  color: #8bc34a;
+  color: #7F56D9;
   transition: 0.3s ease-in;
 }
 
@@ -107,7 +107,7 @@ ul.menuItems li a.active:after {
 }
 
 .btnN:hover {
-  color: #8bc34a;
+  color: #7F56D9;
   background-color: #fff !important;
 }
 
@@ -117,7 +117,7 @@ ul.menuItems li a.active:after {
   text-decoration: none;
 }
 .right_content a:hover {
-  color: #8bc34a;
+  color: #7F56D9;
   transition: all 0.3s ease;
 }
 
@@ -180,7 +180,7 @@ ul.menuItems li a.active:after {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background-color: #8bc34a;
+    background-color: #7F56D9;
   }
 
   .navbarContainer .hamburgerLines .line1 {
@@ -222,7 +222,7 @@ ul.menuItems li a.active:after {
   }
 
   .menuItems li a:hover {
-    color: #8bc34a;
+    color: #7F56D9;
     cursor: pointer;
   }
 

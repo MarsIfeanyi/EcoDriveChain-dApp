@@ -14,7 +14,7 @@ const WhatWeDo = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        At EcoDriveChain, we are passionate about creating a cleaner and greener world
+        At ECOCHAIN, we are passionate about creating a cleaner and greener world
         for everyone. We believe that every little effort can make a big impact,
         and that&apos;s why we&apos;ve made it our mission to incentivize people
         to recycle their belongings in a fun and rewarding way. We&apos;re a

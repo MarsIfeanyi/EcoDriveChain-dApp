@@ -1,6 +1,6 @@
 import Goback from '../GoBackPill/Goback'
 import styles from './sendFunds.module.css'
-import IC from '../../../../assets/bank.png'
+import IC from '../../../../assets/bankIcon.png'
 import BankAccountPill from '../BankAccountPill/BankAccountPill'
 import Button from '../../../Settings/SettingsComponents/Button/Button'
 import { useNavigate } from 'react-router-dom'

@@ -55,7 +55,7 @@ const QRCodeScanner = ({ onRecycledData, onProcessed }) => {
       <Button
         content="Scan QR Code"
         onClick={startScan}
-        style={{ backgroundColor: "#8BC34A", border: "none", marginLeft: "0" }}
+        style={{ backgroundColor: "#7F56D9", border: "none", marginLeft: "0" }}
       />
       <p>
         Make sure the QR code is inside the viewfinder rectangle to start

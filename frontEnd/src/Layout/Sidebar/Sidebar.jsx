@@ -7,8 +7,8 @@ import MonetizationOnRoundedIcon from "@mui/icons-material/MonetizationOnRounded
 import LeaderboardRoundedIcon from "@mui/icons-material/LeaderboardRounded";
 import ArrowBackIosNewRoundedIcon from "@mui/icons-material/ArrowBackIosNewRounded";
 import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
-import SLOGO from "../../assets/logo.png";
-import EcoLogo from "../../Components/EcoLogo/EcoLogo";
+import SLOGO from "../../assets/EcoLogo.png";
+
 
 const Sidebar = () => {
   const [activeItem, setActiveItem] = useState("");
@@ -36,7 +36,7 @@ const Sidebar = () => {
   }, [location]);
 
   // define active and inactive colors
-  const activeBackgroundColor = "#8bc34a";
+  const activeBackgroundColor = "#7F56D9";
 
   // set style for active link
   const activeLinkStyle = {
@@ -48,18 +48,8 @@ const Sidebar = () => {
 
   return (
     <div className={design.Sidebar_wrapper}>
-      {/*<img src={SLOGO} alt="" className={design.Sidebar_img} />*/}
+      <img src={SLOGO} alt="" className={design.Sidebar_img} />
       <div className={design.Sidebar_img_wrapper}>
-        
-        <EcoLogo 
-            className={design.Sidebar_img}
-            textStyles={
-              {
-                "marginLeft":"2px",
-                "fontSize":"28px"
-              }
-            }
-            />
       </div>
 
       <div className={design.menuItems}>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Logo from "../../assets/biggest.png"
+import Logo from "../../assets/Ecologo.png"
 import styles from "./style.module.css";
 import { Link, useLocation } from "react-router-dom";
 
@@ -42,7 +42,8 @@ const Navbar = () => {
       <nav className={styles.navbar}>
         <div className={`${styles.navbarContainer} ${styles.container}`}>
           <Link to="/" style={{ textDecoration: "none" }}>
-            <EcoLogo className={styles.navLogo}/>
+            <img src={Logo} alt="" className={styles.navLogo} />
+
           </Link>
           
 
@@ -104,7 +105,7 @@ const Navbar = () => {
             >
               <Button
                 content="Log in"
-                style={{ backgroundColor: "#8bc34a", border: "none" }}
+                style={{ backgroundColor: "#7F56D9", border: "none" }}
               />
             </Link>
           </div>

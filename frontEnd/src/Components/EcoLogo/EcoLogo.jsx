@@ -7,7 +7,7 @@ function EcoLogo({textStyles}) {
   return (
     <div className={styles.logoContainer} >
       <img src={Log} alt="EcoDriveChain"  />
-      <p style={textStyles}>EcoDriveChain</p>
+      <p style={textStyles}>ECOCHAIN</p>
     </div>
   )
 }

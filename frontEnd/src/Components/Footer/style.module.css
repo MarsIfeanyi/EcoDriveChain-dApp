@@ -14,18 +14,18 @@
   padding: 30px 70px 30px 10vw;
   margin-right: 80px;
   width: 48%;
-  background-image: url(../../assets/foot-bg.png);
+  background-image: url(../../assets/purple.png);
   background-size: 100%;
 }
 
 .Footer_col p {
-  color: #475467;
+  color: #D0D5DD;;
   margin-bottom: 30px;
 }
 
 .Footer_logo {
   margin-bottom: 10px;
-  width: 120px;
+  width: 194.83px;
   object-fit: cover;
 }
 
@@ -45,7 +45,7 @@
 
 .Footer_ico {
   margin-right: 15px;
-  color: #101828;
+  color: #D0D5DD;
   cursor: pointer;
 }
 

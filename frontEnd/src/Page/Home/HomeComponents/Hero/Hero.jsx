@@ -19,7 +19,7 @@ const Hero = () => {
         <Button
           content="Get started"
           style={{
-            backgroundColor: "#8bc34a",
+            backgroundColor: "#7F56D9",
             border: "none",
             padding: "15px 70px",
             marginTop: "5vh",

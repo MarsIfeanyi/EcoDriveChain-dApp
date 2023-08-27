@@ -5,7 +5,7 @@
   }
 
   .RecycleMain_hero{
-    background-color: #eef6e4;
+    background-color: #E6F5F0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +57,7 @@
 
    
 .RecycleMain_stations span, .RecycleMain_stations span>p{
-    color: #8BC34A;
+    color: #7F56D9;
     cursor: pointer;
   }
   

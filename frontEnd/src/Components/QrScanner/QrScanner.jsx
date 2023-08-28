@@ -53,15 +53,12 @@ const QRCodeScanner = ({ onRecycledData, onProcessed }) => {
 
   return (
     <div className={design.QR_container}>
-      <div className="flex gap-10">
-        <Button
-          content="Scan QR Code"
-          onClick={startScan}
-          style={{
-            backgroundColor: "#8BC34A",
-            border: "none",
-          }}
-        />
+ logo
+      <Button
+        content="Scan QR Code"
+        onClick={startScan}
+        style={{ backgroundColor: "#7F56D9", border: "none", marginLeft: "0" }}
+      
 
         <Link to="deposit-bottles">
           <Button
@@ -73,6 +70,7 @@ const QRCodeScanner = ({ onRecycledData, onProcessed }) => {
           />
         </Link>
       </div>
+main
       <p>
         Make sure the QR code is inside the viewfinder rectangle to start
         scanning

@@ -137,8 +137,8 @@ const DashNavbar = (props) => {
             onClick={createCircleWallet}
             content="Create Wallet"
             style={{
-              backgroundColor: "#8BC34A",
-              border: "1px solid #8BC34A",
+              backgroundColor: "#7F56D9",
+              border: "1px solid #7F56D9",
               marginLeft: "0",
             }}
           />

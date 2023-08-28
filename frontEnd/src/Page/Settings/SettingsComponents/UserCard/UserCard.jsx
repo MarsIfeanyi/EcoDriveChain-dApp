@@ -26,7 +26,7 @@ function UserCard({name, email}) {
   }, [location])
 
 
-  const activeBackgroundColor = "#8bc34a";
+  const activeBackgroundColor = "#7F56D9";
 
 
   const activeLinkStyle = {

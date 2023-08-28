@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Ecologo.png"
 import styles from "./style.module.css";
 import { Link, useLocation } from "react-router-dom";
+
 import Button from "./Button";
+import EcoLogo from "../EcoLogo/EcoLogo";
+
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState("home");
   const location = useLocation();
@@ -40,7 +43,9 @@ const Navbar = () => {
         <div className={`${styles.navbarContainer} ${styles.container}`}>
           <Link to="/" style={{ textDecoration: "none" }}>
             <img src={Logo} alt="" className={styles.navLogo} />
+
           </Link>
+          
 
           <input type="checkbox" />
           <div className={styles.hamburgerLines}>
@@ -100,7 +105,7 @@ const Navbar = () => {
             >
               <Button
                 content="Log in"
-                style={{ backgroundColor: "#8bc34a", border: "none" }}
+                style={{ backgroundColor: "#7F56D9", border: "none" }}
               />
             </Link>
           </div>

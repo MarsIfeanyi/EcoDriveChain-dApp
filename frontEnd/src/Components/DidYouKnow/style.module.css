@@ -1,5 +1,5 @@
 .DidYouKnow_container {
-  background: linear-gradient(180deg, #53811e 0%, #66af10 60.75%, #8bc34a 100%);
+  background: linear-gradient(180deg, #7F56D9 0%, #A98EE6 60.75%, #d3d3f7 100%);
   color: #fff;
   border-radius: 8px;
   padding: 25px 25px 50px 25px;
@@ -8,7 +8,7 @@
 }
 
 .DidYouKnow_container h4 {
-  border-bottom: 1px solid #84bd42;
+  border-bottom: 1px solid #7F56D9;
   padding-bottom: 8px;
 }
 

@@ -8,6 +8,7 @@ import Processing from "../../Components/Processing/Processing";
 import AuthContext from "../../context/AuthProvider";
 import EarnedResults from "../../Components/EarnedResult/EarnedResult";
 import { useContext, useState } from "react";
+import Button from "../../Components/Button/Button";
 
 const EarnedResult = ({ result }) => {
   return (

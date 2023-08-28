@@ -13,7 +13,7 @@ const WhatWeDo = () => {
         style={{ marginBottom: "100px", lineHeight: "35px" }}
         data-aos="fade-up"
         data-aos-duration="1000"
-      >
+      logo
         At ECOCHAIN, we are passionate about creating a cleaner and greener world
         for everyone. We believe that every little effort can make a big impact,
         and that&apos;s why we&apos;ve made it our mission to incentivize people
@@ -28,6 +28,7 @@ const WhatWeDo = () => {
         us, you&apos;ll earn points that can be redeemed for cool rewards and
         discounts. Plus, you&apos;ll get the satisfaction of knowing that
         you&apos;re doing your part to reduce waste and help the environment.
+main
       </p>
       <div className={design.WhatWeDo_cards}>
         <div

@@ -20,6 +20,7 @@ import SendFundsConfirm from "./Page/Wallet/WalletComponents/SendFundsConfirm/Se
 import ConvertFunds from "./Page/Wallet/WalletComponents/ConvertFunds/ConvertFunds";
 
 import LeaderMain from "./Layout/LeaderMain/LeaderMain";
+import DepositPetBottlePage from "./Page/ContractInteractions/DepositPetBottlePage";
 
 function App() {
   return (
@@ -29,6 +30,11 @@ function App() {
           <Route path="" element={<DashMain />} />
           <Route path="leaderboard" element={<LeaderMain />} />
           <Route path="start-recycling" element={<RecycleMain />} />
+          <Route
+            path="start-recycling/deposit-bottles"
+            element={<DepositPetBottlePage />}
+          />
+
           <Route path="wallet" element={<Wallet />}>
             <Route path="" element={<WalletMain />} />
             <Route path="convert-funds" element={<ConvertFunds />} />

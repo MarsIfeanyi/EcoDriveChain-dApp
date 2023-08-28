@@ -4,8 +4,10 @@ import Track from "../../../../assets/track.png";
 const TrackBIRC = () => {
   return (
     <div className={design.TrackBIRC_container}>
-      <h1 data-aos="fade-up" data-aos-duration="1000">
+      <h1 data-aos="fade-up" data-aos-duration="1000"> logo
         Track Your ECOCHAIN Activities
+
+ main
       </h1>
       <img
         src={Track}

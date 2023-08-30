@@ -24,7 +24,7 @@ const { chains, publicClient } = configureChains(
   [mainnet, polygon, polygonMumbai, optimism, arbitrum, base, zora],
   [
     alchemyProvider({
-      apiKey: import.meta.REACT_APP_MUMBAI_RPC_URL,
+      apiKey: import.meta.env.VITE_REACT_APP_MUMBAI_API_KEY,
     }),
     jsonRpcProvider({ rpc: () => ({ http: "https://rpc.ankr.com/gnosis" }) }),
     publicProvider(),

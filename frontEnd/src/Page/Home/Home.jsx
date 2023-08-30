@@ -4,9 +4,7 @@ import HowItWorks from "./HomeComponents/HowItWorks/HowItWorks";
 import TrackBIRC from "./HomeComponents/TrackBIRC/TrackBIRC";
 import WhatWeDo from "./HomeComponents/WhatWeDo/WhatWeDo";
 
-
-const Home = () => {  
-  
+const Home = () => {
   return (
     <div>
       <Hero />
@@ -14,7 +12,6 @@ const Home = () => {
       <WhatWeDo />
       <HowItWorks />
       <TrackBIRC />
-      
     </div>
   );
 };

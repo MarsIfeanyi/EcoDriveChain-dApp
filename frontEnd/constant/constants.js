@@ -1,4 +1,4 @@
-export const contractAddress = "0x4221D9Ba0Ba0d3070c308bc8E62b66846fd3a379"; // Correct way
+export const contractAddress = "0x41ef5D1173DB7c478a0fB259751483A78B1a60dA";
 
 export const contractABI = [
   {
@@ -28,7 +28,26 @@ export const contractABI = [
         type: "address",
       },
     ],
-    name: "petBottleDeposited",
+    name: "PetBottleRecycled",
+    type: "event",
+  },
+  {
+    anonymous: false,
+    inputs: [
+      {
+        indexed: false,
+        internalType: "address",
+        name: "user",
+        type: "address",
+      },
+      {
+        indexed: false,
+        internalType: "address",
+        name: "_uSDCWalletAddress",
+        type: "address",
+      },
+    ],
+    name: "SubmitUSDCAddressForPayment",
     type: "event",
   },
   {
@@ -58,16 +77,30 @@ export const contractABI = [
         type: "address",
       },
     ],
+    name: "addressToSubmitted",
+    outputs: [
+      {
+        internalType: "bool",
+        name: "",
+        type: "bool",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
+    ],
     name: "addressToUser",
     outputs: [
       {
         internalType: "string",
         name: "email",
-        type: "string",
-      },
-      {
-        internalType: "string",
-        name: "password",
         type: "string",
       },
       {
@@ -80,24 +113,6 @@ export const contractABI = [
     type: "function",
   },
   {
-    inputs: [
-      {
-        internalType: "address payable",
-        name: "uSDCWalletAddr",
-        type: "address",
-      },
-      {
-        internalType: "uint256",
-        name: "petBottleQty",
-        type: "uint256",
-      },
-    ],
-    name: "depositPetBottle",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function",
-  },
-  {
     inputs: [],
     name: "exchangeRateInUSDC",
     outputs: [
@@ -105,6 +120,44 @@ export const contractABI = [
         internalType: "uint256",
         name: "",
         type: "uint256",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "_user",
+        type: "address",
+      },
+    ],
+    name: "getRecycledPetBottleQuantity",
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "uint256",
+        name: "userIndex",
+        type: "uint256",
+      },
+    ],
+    name: "getrecycledUsers",
+    outputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
       },
     ],
     stateMutability: "view",
@@ -132,14 +185,32 @@ export const contractABI = [
   {
     inputs: [
       {
+        internalType: "address payable",
+        name: "uSDCWalletAddr",
+        type: "address",
+      },
+      {
         internalType: "uint256",
-        name: "tokensToRedeem",
+        name: "petBottleQty",
         type: "uint256",
       },
     ],
-    name: "redeemReceiptTokens",
+    name: "recyclePetBottle",
     outputs: [],
-    stateMutability: "payable",
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "_uSDCWalletAddress",
+        type: "address",
+      },
+    ],
+    name: "submitUSDCAddressForPayment",
+    outputs: [],
+    stateMutability: "nonpayable",
     type: "function",
   },
   {

@@ -7,8 +7,7 @@ import MonetizationOnRoundedIcon from "@mui/icons-material/MonetizationOnRounded
 import LeaderboardRoundedIcon from "@mui/icons-material/LeaderboardRounded";
 import ArrowBackIosNewRoundedIcon from "@mui/icons-material/ArrowBackIosNewRounded";
 import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
-import SLOGO from "../../assets/EcoLogo.png";
-
+import SLOGO from "../../assets/Ecologo.png";
 
 const Sidebar = () => {
   const [activeItem, setActiveItem] = useState("");
@@ -17,10 +16,9 @@ const Sidebar = () => {
   //Logout Functionality
   const navigate = useNavigate();
   const handleLogout = () => {
-    sessionStorage.clear()
-    navigate('/login')
-  }
-
+    sessionStorage.clear();
+    navigate("/login");
+  };
 
   // update activeItem based on current location
   useEffect(() => {
@@ -49,8 +47,7 @@ const Sidebar = () => {
   return (
     <div className={design.Sidebar_wrapper}>
       <img src={SLOGO} alt="" className={design.Sidebar_img} />
-      <div className={design.Sidebar_img_wrapper}>
-      </div>
+      <div className={design.Sidebar_img_wrapper}></div>
 
       <div className={design.menuItems}>
         {" "}

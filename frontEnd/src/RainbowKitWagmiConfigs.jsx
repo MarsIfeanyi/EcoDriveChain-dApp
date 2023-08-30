@@ -21,7 +21,7 @@ import { publicProvider } from "wagmi/providers/public";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
 
 const { chains, publicClient } = configureChains(
-  [mainnet, polygon, polygonMumbai, optimism, arbitrum, base, zora],
+  [polygonMumbai],
   [
     alchemyProvider({
       apiKey: import.meta.env.VITE_REACT_APP_MUMBAI_API_KEY,

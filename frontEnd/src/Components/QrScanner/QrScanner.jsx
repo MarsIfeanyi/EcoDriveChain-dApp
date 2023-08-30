@@ -52,25 +52,28 @@ const QRCodeScanner = ({ onRecycledData, onProcessed }) => {
   };
 
   return (
-    <div className={design.QR_container}>
- logo
-      <Button
-        content="Scan QR Code"
-        onClick={startScan}
-        style={{ backgroundColor: "#7F56D9", border: "none", marginLeft: "0" }}
-      
-
-        <Link to="deposit-bottles">
+    <>
+      <div className={design.QR_container}>
+        <Button
+          content="Scan QR Code"
+          onClick={startScan}
+          style={{
+            backgroundColor: "#7F56D9",
+            border: "none",
+            marginLeft: "0",
+          }}
+        />
+        <Link to="recycle-onchain">
           <Button
-            content="Deposit PetBottles"
+            content="Recycle On-Chain"
             style={{
-              backgroundColor: "#8BC34A",
+              backgroundColor: "#7F56D9",
               border: "none",
             }}
           />
         </Link>
       </div>
-main
+
       <p>
         Make sure the QR code is inside the viewfinder rectangle to start
         scanning
@@ -95,7 +98,7 @@ main
           />
         )}
       </div>
-    </div>
+    </>
   );
 };
 

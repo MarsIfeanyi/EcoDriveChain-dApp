@@ -2,6 +2,15 @@
 
 EcoDriveChain(EcoChain) is a Decentralized Application (dApp) that allows user to properly Dispose and Recycle used plastic (pet bottles). User will get paid the EDC token upon successful disposal and the EDC Token can be converted back to USDC by the user.
 
+## Presentation Description
+
+https://www.figma.com/file/5GghlistnVKcAqSxT8DoGe/ECOCHAIN?type=design&node-id=19-7827&mode=design&t=sfKB9OmQ1Ta0IBWR-0
+https://www.figma.com/file/5GghlistnVKcAqSxT8DoGe/ECOCHAIN?type=design&node-id=3-2629&mode=design&t=xudyEZ1Mg1WqZOCF-0
+
+## Design System (UI/UX)
+
+https://www.figma.com/file/5GghlistnVKcAqSxT8DoGe/ECOCHAIN?type=design&node-id=3-2629&mode=design&t=xudyEZ1Mg1WqZOCF-0
+
 ## How it Works
 
 1. User comes to our Dapp and sign up using email, password or Wallet.
@@ -14,10 +23,29 @@ EcoDriveChain(EcoChain) is a Decentralized Application (dApp) that allows user t
 8. For now our conversion rate is 0.1 USDC per Plastic Bottle.
 9. The Proceed is paid directly into the User's USDC address upon successful confirmation.
 
-- Contract Address
-  0x41ef5D1173DB7c478a0fB259751483A78B1a60dA
-- PolygonScan Address:
-  https://mumbai.polygonscan.com/address/0x41ef5D1173DB7c478a0fB259751483A78B1a60dA
+## Contract Address
 
-- Live Url
-  https://ecochain.vercel.app/
+0x41ef5D1173DB7c478a0fB259751483A78B1a60dA
+
+## PolygonScan Address:
+
+https://mumbai.polygonscan.com/address/0x41ef5D1173DB7c478a0fB259751483A78B1a60dA
+
+## Live Url
+
+https://ecochain.vercel.app/
+
+## Demo Video:
+
+https://youtu.be/qxAynevwxjY
+
+## View of Our EcoChain dApp
+
+- Login/SignUp
+  ![signin](./images/signin.png)
+
+- Create USDC Wallet Using Circle API
+  ![createwallet](./images/Createwallet.png)
+
+- Recycle Pet Bottles
+  ![recycle](./images/recycle.png)

@@ -30,6 +30,7 @@ const { chains, publicClient } = configureChains(
     publicProvider(),
   ]
 );
+
 const { connectors } = getDefaultWallets({
   appName: "EcoDriveChain dApp",
   projectId: "YOUR_PROJECT_ID",

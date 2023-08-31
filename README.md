@@ -62,7 +62,7 @@ https://youtu.be/qxAynevwxjY
 #npm install
 
 npm install
-```
+
 
 #yarn install
 
@@ -77,7 +77,4 @@ npm run dev
 # yarn dev
 
 yarn dev
-
-```
-
 ```

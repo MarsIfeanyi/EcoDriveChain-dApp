@@ -49,3 +49,35 @@ https://youtu.be/qxAynevwxjY
 
 - Recycle Pet Bottles
   ![recycle](./images/recycle.png)
+
+## Usage
+
+- To use this app use the link of the deployed app, [EcoChain](https://ecochain.vercel.app/) or clone the repository and cd into the directory such that you are on `frontEnd`
+- To run this code, make sure you have [nodejs](https://nodejs.org) or [yarn](https://yarnpkg.com/) installed
+- use the following command to run the code on your terminal
+
+```bash
+- install the needed dependency
+
+#npm install
+
+npm install
+```
+
+#yarn install
+
+yarn install
+
+- run the App locally
+
+#npm run dev
+
+npm run dev
+
+# yarn dev
+
+yarn dev
+
+```
+
+```
